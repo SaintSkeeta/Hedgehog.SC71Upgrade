@@ -22,6 +22,8 @@ The problem here is that while these steps are run, the site is still using Site
 
 Sitecore 7.1 fixes this.... but the installation Post step (using Sitecore 7.0's configs and code) can't find any Actions and Conditions used by the Rules....as it's doing a `linksDatabase.GetReferrers(ruleItem)`.
 
+If the code *could* find the linked Actions and Conditions...it would appropriately setup the 'Rules Context' for it (the Source for the field). But because the code fails, the 'Rules Context' is never set properly...and your Actions and Conditions aren't available in the Rules field where they should be.
+
 ## What does the fix do? ##
 The fix is basically telling Sitecore's Links Database how to properly deal with Rules fields. It's a duplicate of Sitecore 7.1's RulesField code, self contained in the `Hedgehog.SC71Upgrade.DLL`.<br />
 The Installation Post Steps can then correctly find the links between Rules fields and Actions and Conditions.... so it can update the Rules Context items appropriately.
