@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hedgehog.SC71Upgrade", "Hedgehog.SC71Upgrade\Hedgehog.SC71Upgrade.csproj", "{C5C3B0D9-6EB8-41F9-BF7B-0E06F9C78664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5C3B0D9-6EB8-41F9-BF7B-0E06F9C78664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C3B0D9-6EB8-41F9-BF7B-0E06F9C78664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C3B0D9-6EB8-41F9-BF7B-0E06F9C78664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C3B0D9-6EB8-41F9-BF7B-0E06F9C78664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
